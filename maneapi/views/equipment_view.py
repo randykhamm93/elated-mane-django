@@ -85,5 +85,4 @@ class EquipmentSerializer(serializers.ModelSerializer):
         model = Equipment
         fields = (
             'id', 'stylist', 'manufacturer', 'cost',
-            'type', 'purchase_date'
-        )
+            'type', 'purchase_date',)
